@@ -2,10 +2,10 @@ class MyCar
   attr_accessor :year, :model, :color, :speed
 
   def initialize(year, model, color)
-    @year = year
-    @model = model
-    @color = color
-    @speed = 0
+    self.year = year
+    self.model = model
+    self.color = color
+    self.speed = 0
   end
 
   def accelerate(num)

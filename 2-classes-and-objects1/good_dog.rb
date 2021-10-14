@@ -2,9 +2,9 @@ class GoodDog
   attr_accessor :name, :height, :weight
 
   def initialize(n, h, w)
-    @name = n
-    @height = h
-    @weight = w
+    self.name = n
+    self.height = h
+    self.weight = w
   end
 
   def speak
