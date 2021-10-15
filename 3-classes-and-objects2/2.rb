@@ -37,8 +37,7 @@ class MyCar
   end
 
   def to_s
-    return (
-    "Class Name: #{self.class}\n"\
+    ("Class Name: #{self.class}\n"\
     "Year: #{self.year}\n"\
     "Model: #{self.model}\n"\
     "Color: #{self.color}\n"\
